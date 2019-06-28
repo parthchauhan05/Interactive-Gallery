@@ -10,3 +10,6 @@ Photo by Ashim D’Silva on Unsplash
 Photo by Ankit Patel on Unsplash
 Photo by Aman Tyagi on Unsplash
 Photo by Aditya Shahane on Unsplash 
+
+Problems:
+Dynamically read list of files in image folder
