@@ -2,9 +2,9 @@
 @import url("animate.css");
 
 body {
-    background-color: #F8FEE5;
     margin: 0 auto;
     max-width: 80rem;
+
 }
 
 h1 {
@@ -12,7 +12,7 @@ h1 {
     font-family: Helvetica, Arial, sans-serif;
     font-size: 2rem;
     margin: 2rem auto;
-    text-shadow: 2px 2px 2px #C6D0A3;
+    text-shadow: 2px 2px 2px #CCCCCC;
 }
 
 .thumbnail {
@@ -21,14 +21,17 @@ h1 {
     border: 1px solid black;
     overflow: hidden;
     display: inline-block; */
-    height: 200px;
+    height: 180px;
+    border: 1px solid black;
+    position: relative;
 }
 
 .grid {
     display: grid;
-    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+    grid-template-columns: repeat(auto-fit, minmax(240px, 1fr));
     /* grid-template-rows: repeat(auto-fit, minmax(300px, 1fr)); */
     grid-gap: 1rem;
+    margin: 2rem;
 }
 
 .thumbnail img {
@@ -41,4 +44,20 @@ h1 {
     width: auto;
     -webkit-transform: translate(-50%, -50%);
     transform: translate(-50%, -50%); */
+
+
+
+
+    /* -o-object-fit: fill;
+    position: absolute;
+    -o-object-fit: cover;
+    object-fit: cover;
+    left: 50%;
+    top: 50%;
+    height: 100%;
+    width: auto;
+    -webkit-transform: translate(-50%, -50%);
+    transform: translate(-50%, -50%); */
+    -o-object-fit: cover;
+    object-fit: cover;
 }

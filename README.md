@@ -13,3 +13,4 @@ Photo by Aditya Shahane on Unsplash
 
 Problems:
 Dynamically read list of files in image folder
+Generating Thumbnails
